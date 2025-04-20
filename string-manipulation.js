@@ -33,3 +33,7 @@ console.log(myStr.slice(1));            // logs 'ello' to console
 let myArr = myStr.split('')     // splits each letter in the string to a value in an array
 
 console.log(myArr);             // logs the array ['H', 'e', 'l', 'l', 'o']
+
+let strangeStr = '$A$v$a$'
+
+console.log(strangeStr.replaceAll(/\W/g, '')) // removes all non-word characters and logs 'Ava' to console
